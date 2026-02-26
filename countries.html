@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Countries | Yourabroadmap (YAM) </title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#1e295b", // Deep navy blue from logo
+                        "accent": "#1fb6c4",  // Cyan/teal from logo
+                        "background-light": "#f6f8fb",
+                        "background-dark": "#0a0f1d",
+                    },
+                    fontFamily: {
+                        "display": ["Manrope"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "2xl": "1rem",
+                        "3xl": "1.5rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style type="text/tailwindcss">
+        @layer base {
+            body {
+                font-family: 'Manrope', sans-serif;
+            }
+        }
+        .sticky-nav {
+            position: sticky;
+            top: 0;
+            z-index: 50;
+            backdrop-filter: blur(8px);
+        }
+        .gradient-accent {
+            background: linear-gradient(135deg, #1e295b 0%, #1fb6c4 100%);
+        }
+        .text-gradient {
+            background: linear-gradient(135deg, #1e295b 0%, #1fb6c4 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 font-display transition-colors duration-300">
+<header class="sticky-nav bg-white/95 dark:bg-background-dark/95 border-b border-slate-100 dark:border-slate-800">
+<div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+<div class="flex items-center gap-3 group cursor-pointer">
+
+<div>
+    <img src="/logo.PNG" style="width: 100px;">
+</div>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-sm font-bold text-primary dark:text-slate-300 hover:text-accent transition-colors" href="index.html">Home</a>
+<a class="text-sm font-bold text-slate-600 dark:text-slate-300 hover:text-accent transition-colors" href="about.html">About</a>
+<a class="text-sm font-bold text-slate-600 dark:text-slate-300 hover:text-accent transition-colors" href="countries.html">Countries</a>
+<a class="text-sm font-bold text-slate-600 dark:text-slate-300 hover:text-accent transition-colors" href="services.html">Services</a>
+<a class="text-sm font-bold text-slate-600 dark:text-slate-300 hover:text-accent transition-colors" href="success-stories.html">Success Stories</a>
+</nav>
+<a href="contact.html"> </a><button class="bg-primary hover:bg-primary/90 text-white px-6 py-2.5 rounded-lg font-bold text-sm transition-all shadow-lg shadow-primary/10">
+            Get Free Consultation
+        </button></a>
+</div>
+</header>
+<main class="flex-1 max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 py-8">
+<nav class="flex items-center gap-2 mb-8 text-sm font-medium text-slate-500 dark:text-slate-400">
+
+</nav>
+<div class="flex flex-col lg:flex-row lg:items-end justify-between gap-6 mb-12">
+<div class="max-w-2xl">
+<h1 class="text-4xl md:text-5xl font-black text-[var(--primary-navy)] dark:text-white tracking-tight mb-4 leading-tight">
+                    Explore Your Global <span class="text-[var(--accent-cyan)]">Future</span>
+</h1>
+<p class="text-lg text-slate-600 dark:text-slate-400 leading-relaxed">
+                    Discover premier education pathways across the world's most sought-after study destinations with YAM.
+                </p>
+</div>
+
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<div class="group bg-white dark:bg-slate-900 rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-800 shadow-sm hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 flex flex-col">
+<div class="relative h-60 overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" data-alt="Statue of Liberty" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDDZGWEyCb5Kzho_QODM4Va0Iazs7x3ZvClTZujXOvrtfZ35XZraXtYhqeGPf2TXIQ5JQH1SVBewF4-R63SXPRNVU7LYuGprcsMpPpC2iNmGiwP7d_vA27Pads8ENN0x2piM92iqL0sXd0MvWcsG3JZmEE0OsXG8TfdI-4msjHSlPve7UoJrr7Kwh5e2-YJ2WsQvpI131-Nb4rwU9WOXGjRuYm_A4_8dwC-Q14yskZcMTGeZcLeaFmRhaO3luRTdYAlTRh29FCRtkiU"/>
+<div class="absolute -bottom-6 left-6 ring-4 ring-white dark:ring-slate-900 rounded-full bg-white overflow-hidden size-14 shadow-lg flex items-center justify-center">
+<img class="w-full h-full object-cover" data-alt="USA Flag" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAkY7TxjhvazdYi-xF7YLUo00RqhSlrdJCdZcFE35FFGP-NlDzLtA5C4qVwchWG2ogK7-ZTOXaItSnqVqexDJs_sqi926-MqkvTOfb03lyklcIW3sC3BD8sGOSOY0QLEQuUQFZyx3NetZsR9imrgbTs5WhTw4s58-JtegS2yB0qRJ3YsWvvL68fDzl4-xtB39JQulUynvtz-e2OfquLYxvQXEIY_PO28Ox7La8DCVXY3BvuDobqZs0ahFYFgmvK4evk7Z2JXJ8Ap9SP"/>
+</div>
+</div>
+<div class="p-8 pt-12 flex flex-col flex-1">
+<h3 class="text-2xl font-extrabold text-[var(--primary-navy)] dark:text-white mb-3">United States</h3>
+<p class="text-slate-600 dark:text-slate-400 text-sm mb-6 leading-relaxed">Experience the diversity of American education with access to top-tier research institutions and global tech hubs.</p>
+
+
+</div>
+</div>
+<div class="group bg-white dark:bg-slate-900 rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-800 shadow-sm hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 flex flex-col">
+<div class="relative h-60 overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" data-alt="London" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDYN2LB7LeqRBzGdCkLmE54vje7Nn6b2rsTZjwp3WQxoCDG8sM5_OWx3_i8ijvznESntBzBc3r7FaOlZTRhxXPAkCtCN_QBiBUDCsQpMm7Ap7QvbApjKq-SkXQuN3OzIEFhRvElzESuzJijzhSYAoZakJu7ix8DQjfcFAlzDAJUXTvk5AlOYLHyyYUyLZ8BR-o08GL86lBzS-oCd0Y59ODANvETirLToZMG8F0uCAKEMaB7a7AtcJBtydv2KPMnlX5TuRESnhq68NzR"/>
+<div class="absolute -bottom-6 left-6 ring-4 ring-white dark:ring-slate-900 rounded-full bg-white overflow-hidden size-14 shadow-lg flex items-center justify-center">
+<img class="w-full h-full object-cover" data-alt="UK Flag" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCqM5atB6V1dykFowiyjgYX0ZSCsdd5yy7j6E_RtTs7IvQq7T5qwZKfBXoEsgSopl7QeWN2pVj5ZSUG4_QwQhBm7O-lpflUmZLio8x7Y-0zaRTGzM5EEBH3WNRm55agl7LmMvC_pFE50IpMW0_yF6LOMlLa0X05BbVcRfGcur_MAkGQqaR_IzEv5ahWZcOr_8NVgbNyQgnRk2PzknL2BBMZXA3-aRz9k80-3sNjMhXH3-WvLZUGrIElJ34mXAANE_geATpgQlcjtmpV"/>
+</div>
+</div>
+<div class="p-8 pt-12 flex flex-col flex-1">
+<h3 class="text-2xl font-extrabold text-[var(--primary-navy)] dark:text-white mb-3">United Kingdom</h3>
+<p class="text-slate-600 dark:text-slate-400 text-sm mb-6 leading-relaxed">Steeped in history, UK universities offer world-leading master's programs and a rich cultural experience.</p>
+
+
+</div>
+</div>
+<div class="group bg-white dark:bg-slate-900 rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-800 shadow-sm hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 flex flex-col">
+<div class="relative h-60 overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" data-alt="Toronto" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDT1VYOdqTGdOSWpBuHTdau6uVxzO1WgvoDd6F-1MqwCJcy1nV_nqcVF29lehVk2OQt22SjUneogl6wQcvYpOT2Br14_vYLFlzG4_m6D0XU8SeItrQiWtTvEiuJby8nU3Qlgt8bvDU7yVrBf8A8Hulgx-ldcVcRZy5iLMdjNnsZubFHBZq5WdXgedt_zWQq-3FAfKNDeqAMzwLvTXm_YGUzULjcp8nx6YRWd4UbERBXyMW6nP_xBnzRS8t82e-Wn6H9R7eEfHBnDTxY"/>
+<div class="absolute -bottom-6 left-6 ring-4 ring-white dark:ring-slate-900 rounded-full bg-white overflow-hidden size-14 shadow-lg flex items-center justify-center">
+<img class="w-full h-full object-cover" data-alt="Canada Flag" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAmG9509piz5I4rJec22gFE5uT18JOTcZDLHk7QY6YALcJ9bWsNLKiKT0Oo7UYCnWFRkiYsmPsV97Qkd49mBFkcU3rm5seLmipswUibcFc56UMHef-evRkECJfuxWWcI1djIqVt0uvmob01n2YhHI-sc8_w7CdUagDvRlZ3jvgEQTFkUKjEQgHDdwRe2JOw75HlBzgcx2hL0s5vae8YmS9OchOdxC-fYovDD4bnBkzQtbgg0ddDNU-qtV7dn7Ws9rIvbm9YRf_Kq9zk"/>
+</div>
+</div>
+<div class="p-8 pt-12 flex flex-col flex-1">
+<h3 class="text-2xl font-extrabold text-[var(--primary-navy)] dark:text-white mb-3">Canada</h3>
+<p class="text-slate-600 dark:text-slate-400 text-sm mb-6 leading-relaxed">A leader in innovation and hospitality, Canada is perfect for students seeking post-study work opportunities.</p>
+
+
+</div>
+</div>
+<div class="group bg-white dark:bg-slate-900 rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-800 shadow-sm hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 flex flex-col">
+<div class="relative h-60 overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" data-alt="Sydney" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB1XEWte186ioEF48z5FQzr7GN6nzsYUPScdjJawd9ods06QK2NSB4-CWe275f5lYGj51aXVLJkpPydPTHrTncq3cXXEoSaNsBFD38vuq9R2PSY8QWJaWVlMx8dwEGHYaWhhkIRaDtyUyGYSApsFbtPW6ohhSPPrTTEytwFO2PoprxB5a501iQDf4jXUyh36KCKWd4sbfRe2cHCrPM-ZPvetTYaWjIuwxvPgyBnP5tQLCWZmywZkqrPM3hAdn1nS8dt6opVodD2uOUY"/>
+<div class="absolute -bottom-6 left-6 ring-4 ring-white dark:ring-slate-900 rounded-full bg-white overflow-hidden size-14 shadow-lg flex items-center justify-center">
+<img class="w-full h-full object-cover" data-alt="Australia Flag" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCI0GU9p7QYf9s5ifuiSN0mYobXaEHCcgrJrAsqTUUx68DJUwc3we_O90omISV2pi1pHWwq806tLeCTMI2QBfx8Dc9E7381OOwVzB3-HbY0uV03g7d9f_fKNZMnQ-7a3jRliC5-mQit7zaIZ5VSoJyzaWYTL5abz5qRrjXpGgLL7s7sHlHRg5ugACSbKprYQtGDv-gyO9E3Qyvn3ik_zMpS-4bTfSmoE0WF6fAid12jwBL3wsPfRDPS0tNIW6qjO6WQbKYpOsA6IWoj"/>
+</div>
+</div>
+<div class="p-8 pt-12 flex flex-col flex-1">
+<h3 class="text-2xl font-extrabold text-[var(--primary-navy)] dark:text-white mb-3">Australia</h3>
+<p class="text-slate-600 dark:text-slate-400 text-sm mb-6 leading-relaxed">Renowned for its research excellence and exceptional quality of life, Australia is a top pick for global students.</p>
+
+
+</div>
+</div>
+<div class="group bg-white dark:bg-slate-900 rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-800 shadow-sm hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 flex flex-col">
+<div class="relative h-60 overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" data-alt="Germany" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA9dN1SgezllpnjuLni85G5h8c3YM2SdC-GS3GJZLdic6ynJqOYlTOFPTJ7P8AUdFsQjw_42VoLZplOV8rAbIJVadKIUVHXtaR0FFueA61ZvvQ4WOmaen4ILrTkiaC95Bt-nSWw0FW6XuRtrnPFGrPKNySfsqR1z0hTO2tguBmQrygcxq_rnnnu9FHxoFgTprnwbSTQDFmlEaxzYzzX3l6ba51RHAkVu_SX8T58SDFiEjffh3JfGoGkr_5cgi0DWzBedChqmKTEBvfR"/>
+<div class="absolute -bottom-6 left-6 ring-4 ring-white dark:ring-slate-900 rounded-full bg-white overflow-hidden size-14 shadow-lg flex items-center justify-center">
+<img class="w-full h-full object-cover" data-alt="Germany Flag" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAriY0aPEZ3dZUpaKQmDOvebwm7DyGCQUNiPgkcO7EM7IoH3h9p1TmtjLEwx0uP-2T5SWt2NhSY8dT7kUo-Zk4F497dAstufPQJXQlqi6SJ8CQgA2S2VN0FWYw-yXVGGh7c-_vD4T70EWXzns6pVXtz5vvXNw3gP0n2TAZkWyYVMrPfX6SlitaKZtMVWFjDXuTu_eX5E57QlipztRaxkW-YfDQTAFjwa07n4BhQqkEpNVaONlpAQgnO2wqa2WUhIHC-_cR-iBbXWFqi"/>
+</div>
+</div>
+<div class="p-8 pt-12 flex flex-col flex-1">
+<h3 class="text-2xl font-extrabold text-[var(--primary-navy)] dark:text-white mb-3">Germany</h3>
+<p class="text-slate-600 dark:text-slate-400 text-sm mb-6 leading-relaxed">The hub of engineering and technology, offering world-class education with minimal tuition fees.</p>
+
+
+</div>
+</div>
+<div class="group bg-white dark:bg-slate-900 rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-800 shadow-sm hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 flex flex-col">
+<div class="relative h-60 overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" data-alt="New Zealand" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAp4sMyCHa1ToqIV2XbrhVxUE_8f16JbLLiS2kykGoaX_94dzIoyGNPpqt8fvWx0H79oU8QnLMmutOOeXbdfM0X96osqW1cP25fwu6wsccLA5vfZDd8u7K4XZFThPqo9oZjm-575E48aVTPvJd3azQ9BzEjjDIWJg-4uk8yyRhUUG_5twrRKtTF_voS8WWYc7P8iExEkOMeLtW-5n8FWoSrXE-qhMPsKCrRzo0AN4MipkGmLV2aeXRHloDb28_MrHcfYVKh9y4AM60x"/>
+<div class="absolute -bottom-6 left-6 ring-4 ring-white dark:ring-slate-900 rounded-full bg-white overflow-hidden size-14 shadow-lg flex items-center justify-center">
+<img class="w-full h-full object-cover" data-alt="NZ Flag" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBb7hu20Zt1OQGnMpUDr9b1jJlZ8VzR1EDJPjQO5we_Yt3zlEr8JpIpbNnEh2X9rVVVNgMrpK7TUkDXJnQwLsx9S3fELSA4BHZ6eW3ndODR8ZSw2pkXhZNNTs5DrUAyqv3lguG4yGqcy_37OhpUhJKy7UIajWsIYDkZod2dEL0c0RtEci0BP1oHuDffZIu5-RcPrjh11oyst1TpwHTh5UuT2cKaLkF0qXJHF523e2swGbYcTEXcNUBC51S5xvSK-Glc3NxpfTgTdEOG"/>
+</div>
+</div>
+<div class="p-8 pt-12 flex flex-col flex-1">
+<h3 class="text-2xl font-extrabold text-[var(--primary-navy)] dark:text-white mb-3">New Zealand</h3>
+<p class="text-slate-600 dark:text-slate-400 text-sm mb-6 leading-relaxed">Safe, serene, and academically rigorous, New Zealand provides a unique and personalized learning experience.</p>
+
+
+</div>
+</div>
+</div>
+
+
+</main>
+<footer class="bg-primary text-slate-300 py-24">
+<div class="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-12">
+<div class="space-y-8">
+<div class="flex items-center gap-3">
+
+<div class="flex flex-col leading-tight">
+<span class="text-2xl font-black tracking-tighter text-white">YAM</span>
+<span class="text-[10px] font-bold uppercase tracking-[0.2em] text-accent">Yourabroadmap</span>
+</div>
+</div>
+<p class="text-sm leading-relaxed text-slate-400">Empowering students to achieve their international education dreams through expert guidance and transparent processes.</p>
+<div class="flex gap-4">
+  
+  <!-- Instagram -->
+  <a class="w-10 h-10 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center hover:bg-accent hover:text-white transition-all"
+     href="https://instagram.com/yourusername" target="_blank">
+    <i class="fa-brands fa-instagram text-lg"></i>
+  </a>
+
+  <!-- Facebook -->
+  <a class="w-10 h-10 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center hover:bg-accent hover:text-white transition-all"
+     href="https://facebook.com/yourusername" target="_blank">
+    <i class="fa-brands fa-facebook-f text-lg"></i>
+  </a>
+
+  <!-- LinkedIn -->
+  <a class="w-10 h-10 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center hover:bg-accent hover:text-white transition-all"
+     href="https://linkedin.com/in/yourusername" target="_blank">
+    <i class="fa-brands fa-linkedin-in text-lg"></i>
+  </a>
+
+</div>
+</div>
+<div>
+<h4 class="text-white font-black uppercase tracking-widest text-xs mb-8">Quick Links</h4>
+<ul class="space-y-4 text-sm font-medium">
+<li><a class="hover:text-accent transition-colors" href="about.html">About</a></li>
+<li><a class="hover:text-accent transition-colors" href="countries.html">Countries</a></li>
+<li><a class="hover:text-accent transition-colors" href="services.html">Services</a></li>
+
+<li><a class="hover:text-accent transition-colors" href="success-stories.html">Success Stories</a></li>
+</ul>
+</div>
+
+<div>
+<h4 class="text-white font-black uppercase tracking-widest text-xs mb-8">Contact Us</h4>
+<ul class="space-y-6 text-sm">
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-accent">location_on</span>
+<span class="font-medium text-slate-400">Vadodara, Gujarat</span>
+</li>
+<li class="flex items-center gap-3">
+<span class="material-symbols-outlined text-accent">call</span>
+<span class="font-medium text-slate-400">+91 75061 66162</span>
+</li>
+<li class="flex items-center gap-3">
+<span class="material-symbols-outlined text-accent">mail</span>
+<span class="font-medium text-slate-400">contact@yourabroadmap.com</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="max-w-7xl mx-auto px-6 pt-16 mt-20 border-t border-white/5 flex flex-col md:flex-row justify-between items-center text-[10px] font-black uppercase tracking-[0.2em] text-slate-500">
+<p><span>© 2026 Yourabroadmap Overseas Education. All Rights Reserved.</span> Developed by <a href="https://www.webriseglobal.com" target="_blank" class="hover:text-white transition-colors">Webrise Global</a></p>
+<div class="flex gap-8 mt-6 md:mt-0">
+
+</div>
+</div>
+</footer>
+
+</body></html>

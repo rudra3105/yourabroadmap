@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>About Us | Yourabroadmap (YAM)</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#1e295b", // Deep navy blue from logo
+                        "accent": "#1fb6c4",  // Cyan/teal from logo
+                        "background-light": "#f6f8fb",
+                        "background-dark": "#0a0f1d",
+                    },
+                    fontFamily: {
+                        "display": ["Manrope"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "2xl": "1rem",
+                        "3xl": "1.5rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style type="text/tailwindcss">
+        @layer base {
+            body {
+                font-family: 'Manrope', sans-serif;
+            }
+        }
+        .sticky-nav {
+            position: sticky;
+            top: 0;
+            z-index: 50;
+            backdrop-filter: blur(8px);
+        }
+        .gradient-accent {
+            background: linear-gradient(135deg, #1e295b 0%, #1fb6c4 100%);
+        }
+        .text-gradient {
+            background: linear-gradient(135deg, #1e295b 0%, #1fb6c4 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 font-display transition-colors duration-300">
+<header class="sticky-nav bg-white/95 dark:bg-background-dark/95 border-b border-slate-100 dark:border-slate-800">
+<div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+<div class="flex items-center gap-3 group cursor-pointer">
+
+<div>
+    <img src="/logo.PNG" style="width: 100px;">
+</div>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-sm font-bold text-primary dark:text-slate-300 hover:text-accent transition-colors" href="index.html">Home</a>
+<a class="text-sm font-bold text-slate-600 dark:text-slate-300 hover:text-accent transition-colors" href="about.html">About</a>
+<a class="text-sm font-bold text-slate-600 dark:text-slate-300 hover:text-accent transition-colors" href="countries.html">Countries</a>
+<a class="text-sm font-bold text-slate-600 dark:text-slate-300 hover:text-accent transition-colors" href="services.html">Services</a>
+<a class="text-sm font-bold text-slate-600 dark:text-slate-300 hover:text-accent transition-colors" href="success-stories.html">Success Stories</a>
+</nav>
+<a href="contact.html"> </a><button class="bg-primary hover:bg-primary/90 text-white px-6 py-2.5 rounded-lg font-bold text-sm transition-all shadow-lg shadow-primary/10">
+            Get Free Consultation
+        </button></a>
+</div>
+</header>
+<main>
+<section class="relative h-[550px] w-full overflow-hidden">
+<div class="absolute inset-0 bg-primary/60 z-10"></div>
+<img alt="Hero background" class="absolute inset-0 w-full h-full object-cover object-center" src="https://lh3.googleusercontent.com/aida-public/AB6AXuClykzL0XGn7Q-tWquJsD6GPuXi86OuRRHdRNhOnOl8lVhEOpEVveTYwcX6e5FJXrMyCRWF5d8lpfeaWA7wUsWCc2OpLVVByIg4-9sseP84nwJhwcJa4kGQRHUoG8ZsPCqCUNRhV2oN6L4khxB_5bZG4KLloBbcdpB6ZzewfNiak2epj9Y3HePVLfVtUnM6dq5bCmITTEF5LceF7YZiTXXFcgd4Y59K5zWb0Bohlewf69D7YPXrQNSr4dbMx7dMFO5NSJ71A4-4WqPX"/>
+<div class="relative z-20 h-full max-w-7xl mx-auto px-4 flex flex-col items-center justify-center text-center">
+<span class="bg-secondary/20 text-secondary px-4 py-1.5 rounded-full text-xs font-bold tracking-widest uppercase mb-6 backdrop-blur-md border border-secondary/30" style="color: white;">Your Global Journey Starts Here</span>
+<h1 class="text-5xl md:text-7xl font-black text-white mb-6 leading-tight">
+                Empowering <br/><span class="text-transparent bg-clip-text bg-gradient-to-r from-secondary to-white">Global Ambitions</span>
+</h1>
+<p class="text-lg md:text-xl text-slate-100 max-w-2xl mb-10 leading-relaxed font-light">
+                Yourabroadmap (YAM) is your ultimate guide to international education and visa processing. We connect aspiring students with world-class opportunities.
+            </p>
+<div class="flex flex-wrap justify-center gap-5">
+
+<a href="contact.html"><button class="bg-white/10 backdrop-blur-md border border-white/30 text-white px-8 py-4 rounded-xl font-bold hover:bg-white/20 transition-all">
+                    Contact Advisors
+                </button></a>
+</div>
+</div>
+</section>
+<section class="py-16 bg-white dark:bg-background-dark border-b border-slate-100 dark:border-slate-800">
+<div class="max-w-7xl mx-auto px-4">
+<div class="grid grid-cols-2 md:grid-cols-4 gap-12 text-center">
+<div class="flex flex-col gap-2 group">
+<span class="text-5xl font-black text-primary group-hover:text-secondary transition-colors">10k+</span>
+<span class="text-xs font-bold text-slate-500 uppercase tracking-widest">Students Placed</span>
+</div>
+<div class="flex flex-col gap-2 group">
+<span class="text-5xl font-black text-secondary group-hover:text-primary transition-colors">500+</span>
+<span class="text-xs font-bold text-slate-500 uppercase tracking-widest">Global Partners</span>
+</div>
+<div class="flex flex-col gap-2 group">
+<span class="text-5xl font-black text-primary group-hover:text-secondary transition-colors">98%</span>
+<span class="text-xs font-bold text-slate-500 uppercase tracking-widest">Visa Success</span>
+</div>
+<div class="flex flex-col gap-2 group">
+<span class="text-5xl font-black text-secondary group-hover:text-primary transition-colors">24/7</span>
+<span class="text-xs font-bold text-slate-500 uppercase tracking-widest">Expert Support</span>
+</div>
+</div>
+</div>
+</section>
+<section class="py-24 gradient-mesh">
+<div class="max-w-7xl mx-auto px-4">
+<div class="grid md:grid-cols-2 gap-10">
+<div class="bg-white dark:bg-slate-800/60 backdrop-blur-sm p-12 rounded-[2.5rem] border border-white dark:border-slate-700 shadow-2xl shadow-primary/5 transition-all hover:shadow-primary/10 hover:-translate-y-1">
+<div class="w-16 h-16 bg-primary/10 rounded-2xl flex items-center justify-center text-primary mb-8">
+<span class="material-symbols-outlined text-4xl">rocket_launch</span>
+</div>
+<h3 class="text-3xl font-bold text-primary dark:text-white mb-6">Our Mission</h3>
+<p class="text-lg text-slate-600 dark:text-slate-300 leading-relaxed mb-8">
+                        At YAM, we bridge the gap between dreams and global education through expert guidance, transparent processes, and personalized support tailored to every student's roadmap.
+                    </p>
+<div class="flex items-center gap-3 text-primary font-bold bg-primary/5 w-fit px-4 py-2 rounded-full">
+<span class="material-symbols-outlined text-secondary">check_circle</span>
+<span>Student-Centric Roadmaps</span>
+</div>
+</div>
+<div class="bg-white dark:bg-slate-800/60 backdrop-blur-sm p-12 rounded-[2.5rem] border border-white dark:border-slate-700 shadow-2xl shadow-primary/5 transition-all hover:shadow-primary/10 hover:-translate-y-1">
+<div class="w-16 h-16 bg-secondary/10 rounded-2xl flex items-center justify-center text-secondary mb-8">
+<span class="material-symbols-outlined text-4xl">visibility</span>
+</div>
+<h3 class="text-3xl font-bold text-primary dark:text-white mb-6">Our Vision</h3>
+<p class="text-lg text-slate-600 dark:text-slate-300 leading-relaxed mb-8">
+                        To become the global leader in student mobility, fostering a world where high-quality education and career paths are accessible to talent everywhere without borders.
+                    </p>
+<div class="flex items-center gap-3 text-secondary font-bold bg-secondary/5 w-fit px-4 py-2 rounded-full">
+<span class="material-symbols-outlined text-primary">trending_up</span>
+<span>Future-Ready Consultancy</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-24 bg-white dark:bg-background-dark overflow-hidden">
+<div class="max-w-7xl mx-auto px-4">
+<div class="text-center mb-20">
+<h2 class="text-4xl font-black text-primary mb-4">The YAM Journey</h2>
+<div class="h-1.5 w-24 bg-secondary mx-auto rounded-full"></div>
+</div>
+<div class="relative">
+<div class="absolute left-1/2 -translate-x-1/2 h-full w-0.5 bg-slate-200 dark:bg-slate-800"></div>
+<div class="relative grid grid-cols-2 gap-12 mb-20">
+<div class="text-right pr-16 self-center">
+<h4 class="text-2xl font-black text-primary mb-3">2015</h4>
+<p class="text-slate-600 dark:text-slate-400">Foundation of Yourabroadmap with a vision to simplify overseas education.</p>
+</div>
+<div class="absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 w-6 h-6 rounded-full bg-white border-4 border-primary z-10"></div>
+<div class="pl-16">
+<img class="rounded-2xl shadow-lg w-full h-40 object-cover grayscale hover:grayscale-0 transition-all duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBRuM8y4XNwJdCi6SxgxYbV-aJfusZEJnDN-UOsluA2DOkclG6phucL0KBvZrUif5tdPK2NXsi2e-qrgCREWa_Ec0wYNWuPeZcg-qCIfOWqbRldWA1VQojeDYerqnN2c4sy2EDkzbl8fJyPdGhNASkyZ3Y8nl4GY7Nc7UcOaCnypTRlFqisUDwigRWSdOk0NqiTH-2GKqRXY4o4KHtzwauBan9_L7Uuaxevi47q9wO1_T6UT_IuICMps7Ay5utzOCKX_tdDxP4lWm0Z"/>
+</div>
+</div>
+<div class="relative grid grid-cols-2 gap-12 mb-20">
+<div class="pr-16">
+<img class="rounded-2xl shadow-lg w-full h-40 object-cover grayscale hover:grayscale-0 transition-all duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC6FbluN4E1aet3dONnqnjbt0qE7g2Ikexs3Gv_JOVhKLzRQMLKlLE-ymRJhcx64Usdo7kcVbeeaxkMBtdfiAiMfbzCFZYz6r25UJ-vl21wLN0l6pSXlE_qV9_8_8Jdyx3aNbTtlcGJjxPZx6NrNy8jUGISAjf9vCjyYcNvKQD5r2-oJXL-IyZ8p81eq6iQEpTzz7IhOX7EUnBJ_vLMXK3Db4hxpEw_HZc8FmGEkVD156IkV4WWyBzFqubc0YhF9OMEpTEtmwAfjDlt"/>
+</div>
+<div class="absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 w-6 h-6 rounded-full bg-white border-4 border-secondary z-10"></div>
+<div class="pl-16 self-center">
+<h4 class="text-2xl font-black text-secondary mb-3">2018</h4>
+<p class="text-slate-600 dark:text-slate-400">Expanding our reach with 5 global offices and over 100 partner universities.</p>
+</div>
+</div>
+<div class="relative grid grid-cols-2 gap-12 mb-20">
+<div class="text-right pr-16 self-center">
+<h4 class="text-2xl font-black text-primary mb-3">2021</h4>
+<p class="text-slate-600 dark:text-slate-400">Launch of our digital roadmap platform for automated university shortlisting.</p>
+</div>
+<div class="absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 w-6 h-6 rounded-full bg-white border-4 border-primary z-10"></div>
+<div class="pl-16">
+<img class="rounded-2xl shadow-lg w-full h-40 object-cover grayscale hover:grayscale-0 transition-all duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCFvI13bcY7sdtEEM-9-_lyCcL2PbGtNZGbU9IUKJiKwoEII4bNrdQRCW28zoVHjhSiJfKE_doBLrCudB5uG0Z_EBMj0fJHbWMzjJG8NeBgwjGbLsJwkn-_XcZm9CQb1u8ngjP1x4L9VJ_EfgqW4DvOfx9wGPv3KSk5oSIcamkFBzHuYyaiorFuiQYarQXf4Y1tOT0skgGyOs6AV5SEztWfIKsAQ-SgC6t2JpL9DzX18IyxeslhYchcU3pEY_CyrOA1GK3m6PtNj6VX"/>
+</div>
+</div>
+<div class="relative grid grid-cols-2 gap-12">
+<div class="pr-16">
+<img class="rounded-2xl shadow-lg w-full h-40 object-cover grayscale hover:grayscale-0 transition-all duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAtJv7F4w-hOHKyCnTBJtnuTE602qmfLaZLDA_izOtxHkhP4F_D4NGl7RQ0cqX_YWDbU9jVbT2v3nxJpY_4QB0o66Ry8NbDlAmMAIH7eJQwgkobloW1jGHSeUddsNHNAx4JDhmwUsMP3BHqz4UCPfqwN5snOyx9humvuE87B2RVkETGHSll8QK8ihGhzq2zfzFzov-wnJdfMMgBfxZQNBE3yO5BPg0lIP_TNpb3yvRg5D7kEiPhGayBofNQ56Y0lqoYmwD-eGJXvIib"/>
+</div>
+<div class="absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 w-6 h-6 rounded-full bg-white border-4 border-secondary z-10"></div>
+<div class="pl-16 self-center">
+<h4 class="text-2xl font-black text-secondary mb-3">2024</h4>
+<p class="text-slate-600 dark:text-slate-400">Leading the industry as the most trusted overseas visa consultancy platform.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!--
+<section class="py-24 bg-slate-50 dark:bg-slate-900/30">
+<div class="max-w-7xl mx-auto px-4">
+<div class="text-center mb-16">
+<h2 class="text-4xl font-black text-primary mb-4">Meet Our Experts</h2>
+<p class="text-slate-600 dark:text-slate-400 max-w-2xl mx-auto">The strategic minds behind YAM's success and your global education journey.</p>
+</div>
+<div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+<div class="group bg-white dark:bg-slate-800 p-8 rounded-3xl border border-slate-200 dark:border-slate-700 hover:shadow-2xl transition-all text-center">
+<div class="relative mb-6 mx-auto w-40 h-40 overflow-hidden rounded-full border-4 border-primary/10 group-hover:border-primary transition-all duration-500">
+<img class="w-full h-full object-cover scale-110 group-hover:scale-100 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCzNpBh0m7iQPjSKV3bkPLpSHrDe4OJ5O5b5Gun5dkaGlcUleLzzj3s1U6dfFcVxv_oGTrdyiA1LSyMmD9sQbr12MLId8Q4CCe6El1zCfc8DG12-fsqEcJ69pC49JUR_sVQiqQOBoYIy79EhPNidxyj9CchPEwXiesx3JtVMMCTSgT-1kY4ZGXpw_sZLIiyz9KD6P_pHa4mWv9lpD7mdsmxZFjsY1KAJsPRi2N4uR8SegZpI6wUFORMfXtKvHoQvuLnCVKPKnn7Sy0r"/>
+</div>
+<h4 class="text-xl font-bold text-slate-900 dark:text-white">Dr. James Sterling</h4>
+<p class="text-primary font-bold text-sm mb-4">Founder &amp; CEO</p>
+<div class="flex justify-center gap-3">
+<a class="w-10 h-10 rounded-full bg-slate-50 dark:bg-slate-700 flex items-center justify-center text-slate-400 hover:bg-primary hover:text-white transition-colors" href="#">
+<span class="material-symbols-outlined text-xl">link</span>
+</a>
+</div>
+</div>
+<div class="group bg-white dark:bg-slate-800 p-8 rounded-3xl border border-slate-200 dark:border-slate-700 hover:shadow-2xl transition-all text-center">
+<div class="relative mb-6 mx-auto w-40 h-40 overflow-hidden rounded-full border-4 border-secondary/10 group-hover:border-secondary transition-all duration-500">
+<img class="w-full h-full object-cover scale-110 group-hover:scale-100 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBmMtLlWSAzJJA8QHE2GR5YhkxrkiH667YzYDkj0OK-5N402cSWbziSOD-YF0nKce5joCOuhe9gzjPYBIV6xsCr76iQb1XUWjCIUm7qEcGVORWBErWZgoRtJL2TrelkSyWEJD70Yx18xJngOYW7BMqFRjG0eyFpCyCN-iBtbUXZ-VLJnD737VZ5SYJP4nvPgrVEiobVBORx71-fwbBHada3kwP49-F50XfvEY4nodsAFWM9MQewaYcdJ4ggyEzXF3Xt6X82ySGSRRQF"/>
+</div>
+<h4 class="text-xl font-bold text-slate-900 dark:text-white">Sarah Jenkins</h4>
+<p class="text-secondary font-bold text-sm mb-4">Director of Admissions</p>
+<div class="flex justify-center gap-3">
+<a class="w-10 h-10 rounded-full bg-slate-50 dark:bg-slate-700 flex items-center justify-center text-slate-400 hover:bg-secondary hover:text-white transition-colors" href="#">
+<span class="material-symbols-outlined text-xl">link</span>
+</a>
+</div>
+</div>
+<div class="group bg-white dark:bg-slate-800 p-8 rounded-3xl border border-slate-200 dark:border-slate-700 hover:shadow-2xl transition-all text-center">
+<div class="relative mb-6 mx-auto w-40 h-40 overflow-hidden rounded-full border-4 border-primary/10 group-hover:border-primary transition-all duration-500">
+<img class="w-full h-full object-cover scale-110 group-hover:scale-100 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAYpbauw03ykJfOXejRaIEW8RuDMeH5NMCp5tC-jaQzWnKSVsYbcQ3Y8GV8eXkaDiFdRdvm1NSwWZ8gaJFj3llZhqcfp8Hg_OuUjcz-P1LDHUhd56IO9xMkr3fblA8KuNc5b21aGHWMUjgPS-Si9ZTtQY833_GHG_et4H7LXSdi8qQcq5ZGPmjgkQc5dUdDyj2HNsYQD_C3kNAo2RvkJFEBTYkM82g2uwMuQyZqhH2u-yZfMZZh_-FfLAjHJAOCZ-DdD30Y8XbDgQQA"/>
+</div>
+<h4 class="text-xl font-bold text-slate-900 dark:text-white">Michael Chen</h4>
+<p class="text-primary font-bold text-sm mb-4">Senior Visa Strategist</p>
+<div class="flex justify-center gap-3">
+<a class="w-10 h-10 rounded-full bg-slate-50 dark:bg-slate-700 flex items-center justify-center text-slate-400 hover:bg-primary hover:text-white transition-colors" href="#">
+<span class="material-symbols-outlined text-xl">link</span>
+</a>
+</div>
+</div>
+<div class="group bg-white dark:bg-slate-800 p-8 rounded-3xl border border-slate-200 dark:border-slate-700 hover:shadow-2xl transition-all text-center">
+<div class="relative mb-6 mx-auto w-40 h-40 overflow-hidden rounded-full border-4 border-secondary/10 group-hover:border-secondary transition-all duration-500">
+<img class="w-full h-full object-cover scale-110 group-hover:scale-100 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC1LWqNyJq_s4dz-tTJ0ESjlgTT_Vam6sSh0K1YGfkFqP_HMt2zGcwbbaMBkuTPv5W7G1ZPxx9f-Qmu5mM3BEKGgcjxBJ8d698WkK5nSTvWSM9e8p8LXQBGBqs3qVhJje4_12ITuD0-QV4Jy4O3H6QTjQ5zfIh3Ju6mrqUoOGU4nT9M9xwuVBPSYFGpQG_zDoK18Pne6dqX3_c_DS5c-Im4-q_tZyf6HRBvHmnTtbqLrk-1bUZ8TK540yYDmsymCmhXKtOVq8WJZxoA"/>
+</div>
+<h4 class="text-xl font-bold text-slate-900 dark:text-white">Elena Rodriguez</h4>
+<p class="text-secondary font-bold text-sm mb-4">Student Welfare Head</p>
+<div class="flex justify-center gap-3">
+<a class="w-10 h-10 rounded-full bg-slate-50 dark:bg-slate-700 flex items-center justify-center text-slate-400 hover:bg-secondary hover:text-white transition-colors" href="#">
+<span class="material-symbols-outlined text-xl">link</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>-->
+<section class="py-24">
+<div class="max-w-6xl mx-auto px-4">
+<div class="bg-primary rounded-[3rem] p-12 md:p-20 text-center text-white relative overflow-hidden shadow-3xl shadow-primary/20">
+<div class="absolute top-0 right-0 -translate-y-1/2 translate-x-1/4 w-96 h-96 bg-secondary/10 rounded-full blur-3xl"></div>
+<div class="absolute bottom-0 left-0 translate-y-1/2 -translate-x-1/4 w-64 h-64 bg-secondary/10 rounded-full blur-2xl"></div>
+<div class="relative z-10">
+<h2 class="text-4xl md:text-5xl font-black mb-8">Ready to Map Your Future?</h2>
+<p class="text-xl text-slate-200 mb-12 max-w-3xl mx-auto leading-relaxed">
+                        Join over 10,000 students who achieved their dreams with YAM. Our experts are ready to build your personalized abroad roadmap.
+                    </p>
+<div class="flex flex-wrap justify-center gap-5">
+<a href="contact.html"><button class="bg-white/10 backdrop-blur-md border border-white/20 text-white px-10 py-5 rounded-2xl font-black text-lg hover:bg-white/20 transition-all">
+                            Book Free Consultation
+                        </button></a>
+<a href="success-stories.html"><button class="bg-white/10 backdrop-blur-md border border-white/20 text-white px-10 py-5 rounded-2xl font-black text-lg hover:bg-white/20 transition-all">
+                            View Success Stories
+                        </button></a>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer class="bg-primary text-slate-300 py-24">
+<div class="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-12">
+<div class="space-y-8">
+<div class="flex items-center gap-3">
+
+<div class="flex flex-col leading-tight">
+<span class="text-2xl font-black tracking-tighter text-white">YAM</span>
+<span class="text-[10px] font-bold uppercase tracking-[0.2em] text-accent">Yourabroadmap</span>
+</div>
+</div>
+<p class="text-sm leading-relaxed text-slate-400">Empowering students to achieve their international education dreams through expert guidance and transparent processes.</p>
+<div class="flex gap-4">
+  
+  <!-- Instagram -->
+  <a class="w-10 h-10 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center hover:bg-accent hover:text-white transition-all"
+     href="https://instagram.com/yourusername" target="_blank">
+    <i class="fa-brands fa-instagram text-lg"></i>
+  </a>
+
+  <!-- Facebook -->
+  <a class="w-10 h-10 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center hover:bg-accent hover:text-white transition-all"
+     href="https://facebook.com/yourusername" target="_blank">
+    <i class="fa-brands fa-facebook-f text-lg"></i>
+  </a>
+
+  <!-- LinkedIn -->
+  <a class="w-10 h-10 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center hover:bg-accent hover:text-white transition-all"
+     href="https://linkedin.com/in/yourusername" target="_blank">
+    <i class="fa-brands fa-linkedin-in text-lg"></i>
+  </a>
+
+</div>
+</div>
+<div>
+<h4 class="text-white font-black uppercase tracking-widest text-xs mb-8">Quick Links</h4>
+<ul class="space-y-4 text-sm font-medium">
+<li><a class="hover:text-accent transition-colors" href="about.html">About</a></li>
+<li><a class="hover:text-accent transition-colors" href="countries.html">Countries</a></li>
+<li><a class="hover:text-accent transition-colors" href="services.html">Services</a></li>
+
+<li><a class="hover:text-accent transition-colors" href="success-stories.html">Success Stories</a></li>
+</ul>
+</div>
+
+<div>
+<h4 class="text-white font-black uppercase tracking-widest text-xs mb-8">Contact Us</h4>
+<ul class="space-y-6 text-sm">
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-accent">location_on</span>
+<span class="font-medium text-slate-400">Vadodara, Gujarat</span>
+</li>
+<li class="flex items-center gap-3">
+<span class="material-symbols-outlined text-accent">call</span>
+<span class="font-medium text-slate-400">+91 75061 66162</span>
+</li>
+<li class="flex items-center gap-3">
+<span class="material-symbols-outlined text-accent">mail</span>
+<span class="font-medium text-slate-400">contact@yourabroadmap.com</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="max-w-7xl mx-auto px-6 pt-16 mt-20 border-t border-white/5 flex flex-col md:flex-row justify-between items-center text-[10px] font-black uppercase tracking-[0.2em] text-slate-500">
+<p><span>© 2026 Yourabroadmap Overseas Education. All Rights Reserved.</span> Developed by <a href="https://www.webriseglobal.com" target="_blank" class="hover:text-white transition-colors">Webrise Global</a></p>
+<div class="flex gap-8 mt-6 md:mt-0">
+
+</div>
+</div>
+</footer>
+
+</body></html>
